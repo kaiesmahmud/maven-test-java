@@ -48,6 +48,11 @@
 	</build>
 	<repositories>
 		<repository>
+			<id>github-repo</id>
+			<name>GitHub Repository</name>
+			<url>https://github.com/kaiesmahmud/maven-test-java.git</url>
+		</repository>
+		<repository>
 			<id>spring-milestones</id>
 			<name>Spring Milestones</name>
 			<url>https://repo.spring.io/milestone</url>
@@ -82,5 +87,11 @@
 			</releases>
 		</pluginRepository>
 	</pluginRepositories>
-
+	<distributionManagement>
+		<repository>
+			<id>github-repo</id>
+			<name>GitHub Repository</name>
+			<url>https://github.com/kaiesmahmud/maven-test-java.git</url>
+		</repository>
+	</distributionManagement>
 </project>
